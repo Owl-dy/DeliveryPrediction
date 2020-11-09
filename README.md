@@ -1,0 +1,3 @@
+# NAATO
+
+MadHacks competition
