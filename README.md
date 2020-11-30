@@ -8,4 +8,4 @@
 4. DATA SCIENCE BRANCH FOR DETAILS ON HOW TO TRAIN A ONTIME DELIVERY MODEL
 
 ## Architecture Diagram
-![alt text](architecture.png)
+![alt text](Architecture.png)
