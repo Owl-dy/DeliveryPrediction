@@ -9,3 +9,5 @@
 
 ## Architecture Diagram
 ![alt text](Architecture.png)
+**[Click here](https://objectstorage.us-ashburn-1.oraclecloud.com/n/id7bx2ebjouq/b/PublicBucket/o/Madhack_promo.mp4) to watch our promotion video**
+
