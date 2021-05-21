@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+     table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+          
+          tr:nth-child(even) {
+            background-color: #dddddd;
+          }
+
+
+          body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+          #background{
+         
+           
+background-color:rgb(57, 54, 50);
+overflow:auto;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+          }     
+
+
+         
+    </style>
+
+    <meta charset="utf-8">
+    <!-- onLET -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <script type='text/javascript' src='../static/jquery.js'></script>
+    <link href="https://unpkg.com/tabulator-tables@4.8/dist/css/tabulator_midnight.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.8.4/dist/js/tabulator.min.js"></script>
+    <script type='text/javascript' src='../static/knockout-3.5.1.js'></script>
+    <script type='text/javascript' src='../static/bundle.js'></script>
+
+
+    <link href="/dist/css/semantic-ui/tabulator_semantic-ui.min.css" rel="stylesheet">
+
+
+
+    <title>Austin Live Map</title>
+  </head>
+  <body>
+
+    <div id='background'>
+
+
+      <h2 style="color:white;font-family: Arial, Helvetica, sans-serif">NAATO's Real Time Package Tracker</h2>
+
+      <div id="package-table" style="width:55.85%; height:20%"></div>
+    <div id="mapid" style = "height:100vh; display:block; margin-left:auto; margin-right:auto; width:100%"></div>
+    
+
+    <script src="../static/leaf.js"></script>
+
+    </div>
+  </body>
+</html>
